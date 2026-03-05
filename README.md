@@ -1,168 +1,132 @@
-SCT_WD_4 – Premium Task Manager Web App
-📌 Project Overview
+📝 SCT_WD_4 – Premium Task Manager
 
-SCT_WD_4 – Premium Task Manager is a modern and responsive To-Do List Web Application that helps users manage their daily tasks efficiently.
+A sleek and responsive To-Do Web Application designed with a modern Glassmorphism UI.
+This project focuses on smooth user experience, efficient task management, and persistent data storage using modern web technologies.
 
-The application allows users to add tasks, schedule them with date and time, mark tasks as completed, filter tasks, and delete tasks. All data is saved using browser local storage, so tasks remain available even after refreshing the page.
+This project was developed as part of the Web Development Internship at SkillCraft Technology.
 
-This project was developed as part of the SkillCraft Technology Web Development Internship (Task-04).
+Internship Task: Task-04 – Advanced Task Management System
 
-🌐 Live Demo
+🔗 Project Links
 
-Live Website
+Live Demo:
 https://sct-wd-4-siddharth.netlify.app/
 
-GitHub Repository
+GitHub Repository:
 https://github.com/SiddharthKushwaha21/SCT_WD_4
 
-🚀 Features
+✨ Features
 Task Management
 
-Add new tasks quickly
+Users can easily create and manage tasks with a simple and intuitive interface.
+Tasks can be added instantly using the Add button or Enter key.
+Each task can also include date and time scheduling to track deadlines effectively.
 
-Assign date and time to tasks
+Users can also mark tasks as completed or delete them instantly whenever required.
 
-Delete tasks easily
+Smart Filtering
 
-Mark tasks as completed
-
-Task Filtering
-
-Users can filter tasks using three categories:
+The application provides filtering options to help users manage their tasks more efficiently.
 
 All Tasks
+Displays every task created in the system.
 
 Active Tasks
+Shows only tasks that are still pending.
 
 Completed Tasks
+Displays tasks that have already been finished.
 
 Data Persistence
 
-All tasks are saved in Local Storage, so data remains even after page refresh.
+All tasks are automatically stored using the Web Storage API (LocalStorage).
 
-Modern UI
+This means:
 
-Glassmorphism design
+Tasks remain saved even after refreshing the page.
 
-Gradient background
+No external database is required.
 
-Smooth animations
+Fast and lightweight performance.
 
-Responsive layout
+Premium UI and User Experience
 
-Clean and minimal interface
+The application uses a Glassmorphism design style which creates a modern frosted-glass effect.
 
-Interactive UI
+Key UI features include:
 
-Dynamic task rendering
+Smooth CSS animations and hover effects
 
-Instant updates after actions
+Clean typography
 
-Icon-based task controls
+Responsive layout for mobile, tablet, and desktop
+
+Minimal and elegant interface
 
 🛠️ Technologies Used
-Frontend
-
-HTML5
-
-CSS3
-
-JavaScript (Vanilla JS)
-
-Libraries & Tools
-
-Google Fonts
-
-Font Awesome Icons
-
-LocalStorage API
-
-Netlify (Deployment)
-
+Category	Technology
+Core Technologies	HTML5, CSS3, JavaScript (ES6)
+Icons	Font Awesome
+Fonts	Google Fonts
+Data Storage	LocalStorage (Web Storage API)
+Deployment	Netlify
 📂 Project Structure
 SCT_WD_4
 │
-├── index.html      # Main structure of the application
-├── style.css       # Styling and UI design
-├── script.js       # Application logic and functionality
-└── README.md       # Project documentation
-⚙️ How It Works
-1️⃣ Add Task
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 
-User enters task text, selects date and time, and clicks Add Task.
+index.html
+Contains the main HTML structure of the application.
 
-2️⃣ Store Task
+style.css
+Includes all styling such as layout, glassmorphism effects, animations, and responsiveness.
 
-The task is stored in localStorage using JavaScript.
+script.js
+Handles application logic including task creation, deletion, filtering, and saving tasks to LocalStorage.
 
-3️⃣ Render Task
+🚀 Getting Started
 
-The task appears in the task list dynamically.
+To run this project on your local machine, follow these steps.
 
-4️⃣ Manage Task
-
-User can:
-
-Mark task as completed
-
-Delete task
-
-Filter tasks
-
-💻 Installation & Setup
-
-If you want to run the project locally:
-
-Step 1
-
-Clone the repository
-
+Step 1: Clone the Repository
 git clone https://github.com/SiddharthKushwaha21/SCT_WD_4.git
-Step 2
-
-Open the project folder
-
+Step 2: Navigate to the Project Folder
 cd SCT_WD_4
-Step 3
+Step 3: Run the Project
 
-Open index.html in your browser.
+Open the index.html file in any modern web browser.
 
-📱 Responsive Design
+💡 Technical Highlights
 
-The application is designed to work smoothly on:
+During the development of this project, the following concepts were implemented.
 
-Desktop
+LocalStorage Integration
 
-Laptop
+All tasks are stored in the browser using LocalStorage to maintain persistent data.
 
-Tablet
+Dynamic Rendering
 
-Mobile devices
+JavaScript dynamically updates the task list whenever tasks are added, completed, or removed.
 
-🎯 Learning Outcomes
+Array Methods
 
-Through this project, the following concepts were learned:
+JavaScript methods like .filter() and .forEach() are used to display tasks based on user selection.
 
-DOM manipulation
+Event Handling
 
-Event handling
-
-Local storage usage
-
-Dynamic UI rendering
-
-Responsive web design
-
-Modern CSS UI techniques
+Efficient event handling is used to manage dynamically created tasks.
 
 👨‍💻 Author
 
 Siddharth Kushwaha
 MCA 2nd Year – Section B
 
-GitHub
+GitHub Profile:
 https://github.com/SiddharthKushwaha21
 
 📜 License
 
-This project is created for educational and internship purposes.
+This project is developed for educational and internship purposes under SkillCraft Technology.
