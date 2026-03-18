@@ -16,7 +16,7 @@ The project focuses on building a clean, interactive, and responsive productivit
 
 ## 🚀 Live Demo
 
-https://sct-wd-4-siddharth.netlify.app/
+https://sct-wd-4-olive.vercel.app/
 
 ---
 
